@@ -1,4 +1,4 @@
-require "pry"
+
 # Replace the '__' in the below methods to to make the specs pass!
 # Each '__' corresponds to a single line of code you will need to write.
 # See the example below on the left and how it should look on the right.
@@ -22,7 +22,7 @@ def can_be_created_with_a_hash_of_attributes
       in_theaters: false
   }
   movie =  __
-  binding.pry
+  
 end
 
 def can_be_created_in_a_block(args = nil)
