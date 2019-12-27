@@ -40,9 +40,7 @@ def can_be_created_in_a_block(args = nil)
 end
 
 def can_get_the_first_item_in_the_database
-   Movie.all.find do |m|
-     binding.pry
-   end
+   Movie.all
 end
 
 def can_get_the_last_item_in_the_database
