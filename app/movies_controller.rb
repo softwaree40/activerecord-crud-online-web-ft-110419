@@ -73,9 +73,9 @@ end
 
 def can_be_found_updated_and_saved
   # Updtate the title "Awesome Flick" to "Even Awesomer Flick", save it, then return it
-  user = Movie.find_by(title: "Awesome Flick")
-  user.title = "Even Awesomer Flick"
-  user.save
+  movie = Movie.find_by(title: "Awesome Flick")
+  movie.title = "Even Awesomer Flick"
+  user.update(title: "Even Awesomer Flick")
   
 end
 
